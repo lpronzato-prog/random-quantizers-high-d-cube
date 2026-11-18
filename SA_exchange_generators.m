@@ -4,7 +4,7 @@ function [ X, Gen, Dist_pattern, WLP ] = SA_exchange_generators( d,m,G_initial,i
 % A simulated annealing algorithm of the exchange type for the
 % construction of generating equations for a 2^(d-m) fractional
 % factorial design based on maximin distance
-% = Algorithm 7.2 of [Karvonen, Pronzato and Zhigljavsky, 2026]
+% 
 % Returns X, the list of generators in matrix form), the distance distribution 
 % (pattern) and the word length pattern WLP
 % G_initial (m*(d-m)) contains a list of m generators in matrix form, 
